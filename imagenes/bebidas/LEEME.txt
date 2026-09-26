@@ -1,5 +1,0 @@
-Coloca aqui las fotos de Bebidas.
-Nombra cada archivo igual al slug del producto, en minuscula y con guiones, ej:
-  milhoja-la-reina-de-la-casa.jpg
-  cheesecake-de-frutos-rojos.jpg
-Luego solo agrega el campo img:"imagenes/bebidas/nombre-archivo.jpg" a ese producto en script.js
