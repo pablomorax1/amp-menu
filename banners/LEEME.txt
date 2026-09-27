@@ -1,0 +1,8 @@
+banners/pasteleria.jpg -> ya está integrado.
+
+banners/galleteria.jpg -> falta. La foto de título que venía en tu PDF de
+Galletería es un gráfico promocional de Navidad con texto y precio
+("Galletas surtidas de Navidad $28.000") y además es de baja resolución,
+así que no se usó como banner. En cuanto subas aquí una foto limpia de
+galletas (sin texto encima), llamada exactamente "galleteria.jpg",
+aparecerá automáticamente en el menú sin tocar el código.
