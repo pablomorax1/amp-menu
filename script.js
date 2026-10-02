@@ -26,7 +26,7 @@ function tagPill(t){
 const MENU = {
   pasteleria: {
     label:"Pastelería", icon:"croissant",
-    subtitle:"Hojaldres recién horneados, al estilo de una boulangerie francesa.",
+    subtitle:"Productos de pastelería francesa elaborados con una masa hojaldrada enriquecida con azúcar, mantequilla, leche, huevos, chocolate o frutos secos.",
     banner:"banners/pasteleria.jpg",
     blocks:[
       {type:'groupTitle', title:'El Auténtico Croissant'},
@@ -61,10 +61,10 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'Nuestros Sándwiches'},
       {type:'items', items:[
-        {n:"Recreo en sanduchera", d:"Sándwich clásico de jamón y queso, prensado y calientito.", p:"$10.500", img:"imagenes/sandwiches/recreo-en-sanduchera.jpg"},
-        {n:"Express — frío", d:"Jamón, queso, tomate y espinaca fresca en pan artesanal frío.", p:"$14.500", img:"imagenes/sandwiches/express-frio.jpg"},
+        {n:"Recreo en sanduchera", d:"Clásico sándwich tostado de jamón y queso, preparado en sanduchera como el hecho en casa.", p:"$10.500", img:"imagenes/sandwiches/recreo-en-sanduchera.jpg"},
+        {n:"Express — frío", d:"sándwich frío con jamón, queso, tomate fresco, espinaca tierna y mayonesa casera; ideal para llevar.", p:"$14.500", img:"imagenes/sandwiches/express-frio.jpg"},
         {n:"Atún", d:"Dip cremoso de atún con espinaca sobre pan artesanal.", p:"$18.000"},
-        {n:"Carnes", d:"Jamón, salami, pepperoni, espinaca, queso y tomate en una sola creación.", p:"$20.000", img:"imagenes/sandwiches/carnes.jpg"},
+        {n:"Carnes", d:"Baguette crujiente con salami, pepperoni, jamón, queso mozzarella, tomate, espinaca y salsa de la casa.", p:"$20.000", img:"imagenes/sandwiches/carnes.jpg"},
         {n:"Focaccia", d:"Focaccia horneada con pesto, tomate fresco y stracciatella cremosa.", p:"$13.500", img:"imagenes/sandwiches/focaccia.jpg"},
       ]},
     ]
@@ -76,10 +76,10 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'Dulces'},
       {type:'items', items:[
-        {n:"Bocado de Otoño", d:"Postre de temporada con capas de sabores otoñales.", p:"$18.000", img:"imagenes/reposteria/bocado-de-otono.jpg"},
-        {n:"Cheesecake frío de maracuyá", d:"Cheesecake cremoso con la acidez fresca del maracuyá.", p:"$17.500", img:"imagenes/reposteria/cheesecake-frio-de-maracuya.jpg"},
-        {n:"Cheesecake de frutos rojos", d:"Cheesecake suave cubierto con frutos rojos frescos.", p:"$18.000", img:"imagenes/reposteria/cheesecake-de-frutos-rojos.jpg"},
-        {n:"Cheesecake brownie", d:"Fusión de cheesecake cremoso y brownie de chocolate intenso.", p:"$18.500", img:"imagenes/reposteria/cheesecake-brownie.jpg"},
+        {n:"Bocado de Otoño", d:"Crema de calabaza especiada con toques cítricos sobre galleta crujiente de chocolate y semillas. Contiene gluten y lácteos.", p:"$18.000", img:"imagenes/reposteria/bocado-de-otono.jpg"},
+        {n:"Cheesecake frío de maracuyá", d:"Cremoso cheesecake de queso con la intensidad exótica y agridulce del maracuyá colombiano.", p:"$17.500", img:"imagenes/reposteria/cheesecake-frio-de-maracuya.jpg"},
+        {n:"Cheesecake de frutos rojos", d:"Cremoso cheesecake bañado con una irresistible salsa artesanal de fresas, arándanos y moras.", p:"$18.000", img:"imagenes/reposteria/cheesecake-de-frutos-rojos.jpg"},
+        {n:"Cheesecake brownie", d:"Decadente crema de queso horneada sobre base de brownie, cubierta con salsa de chocolate y maní.", p:"$18.500", img:"imagenes/reposteria/cheesecake-brownie.jpg"},
         {n:"Crème brûlée", d:"Crema francesa con costra de caramelo crujiente.", p:"$17.500", img:"imagenes/reposteria/creme-brulee.jpg"},
         {n:"Muffin de chocolate vegano", d:"Muffin de chocolate 100% vegano, húmedo y sabroso.", p:"$17.000", img:"imagenes/reposteria/muffin-de-chocolate-vegano.jpg"},
         {n:"Torta de zanahoria", d:"Torta húmeda de zanahoria con especias y frosting cremoso.", p:"$13.500", img:"imagenes/reposteria/torta-de-zanahoria.jpg"},
