@@ -61,10 +61,10 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'Nuestros Sándwiches'},
       {type:'items', items:[
-        {n:"Recreo en sanduchera", d:"Clásico sándwich tostado de jamón y queso, preparado en sanduchera como el hecho en casa.", p:"$10.500", img:"imagenes/sandwiches/recreo-en-sanduchera.jpg"},
-        {n:"Express — frío", d:"sándwich frío con jamón, queso, tomate fresco, espinaca tierna y mayonesa casera; ideal para llevar.", p:"$14.500", img:"imagenes/sandwiches/express-frio.jpg"},
+        {n:"Recreo en sanduchera", d:"Clásico sándwich tostado de jamón y queso, preparado en sanduchera como el hecho por mamá.", p:"$10.500", img:"imagenes/sandwiches/recreo-en-sanduchera.jpg"},
+        {n:"Express — frío", d:"sándwich frío con jamón, queso, tomate fresco, espinaca tierna y mayonesa casera.", p:"$14.500", img:"imagenes/sandwiches/express-frio.jpg"},
         {n:"Atún", d:"Dip cremoso de atún con espinaca sobre pan artesanal.", p:"$18.000"},
-        {n:"Carnes", d:"Baguette crujiente con salami, pepperoni, jamón, queso mozzarella, tomate, espinaca y salsa de la casa.", p:"$20.000", img:"imagenes/sandwiches/carnes.jpg"},
+        {n:"Carnes", d:"Pan tipo Baguette crujiente con salami, pepperoni, jamón, queso mozzarella, tomate, espinaca y salsa de la casa.", p:"$20.000", img:"imagenes/sandwiches/carnes.jpg"},
         {n:"Focaccia", d:"Focaccia horneada con pesto, tomate fresco y stracciatella cremosa.", p:"$13.500", img:"imagenes/sandwiches/focaccia.jpg"},
       ]},
     ]
@@ -76,7 +76,7 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'Dulces'},
       {type:'items', items:[
-        {n:"Bocado de Otoño", d:"Crema de calabaza especiada con toques cítricos sobre galleta crujiente de chocolate y semillas. Contiene gluten y lácteos.", p:"$18.000", img:"imagenes/reposteria/bocado-de-otono.jpg"},
+        {n:"Bocado de Otoño", d:"Postre otoñal de calabaza tierna y especias aromáticas con notas de naranja, sobre galleta de chocolate y semillas.", p:"$18.000", img:"imagenes/reposteria/bocado-de-otono.jpg"},
         {n:"Cheesecake frío de maracuyá", d:"Cremoso cheesecake de queso con la intensidad exótica y agridulce del maracuyá colombiano.", p:"$17.500", img:"imagenes/reposteria/cheesecake-frio-de-maracuya.jpg"},
         {n:"Cheesecake de frutos rojos", d:"Cremoso cheesecake bañado con una irresistible salsa artesanal de fresas, arándanos y moras.", p:"$18.000", img:"imagenes/reposteria/cheesecake-de-frutos-rojos.jpg"},
         {n:"Cheesecake brownie", d:"Decadente crema de queso horneada sobre base de brownie, cubierta con salsa de chocolate y maní.", p:"$18.500", img:"imagenes/reposteria/cheesecake-brownie.jpg"},
