@@ -180,7 +180,7 @@ const MENU = {
         {n:"Tinto Campesino", d:"Café tradicional colado y endulzado artesanalmente con panela, ofreciendo un sabor dulce y reconfortante.", p:"$6.500", img:"imagenes/bebidas/tinto-campesino.jpg"}
         {n:"Milo", d:"Clásica bebida achocolatada preparada en leche, servido frío o caliente.", p:"$13.000", img:"imagenes/bebidas/milo.jpg"}
         {n:"Vaso de leche", d:"Vaso de leche de vaca simple y reconfortante.", p:"$8.000", img:"imagenes/bebidas/vaso-de-leche.jpg"}
-        {n:"Vaso de leche de almendras", d:"Bebida vegetal ligera y cremosa a base de almendras.", p:"$12.000", img:"imagenes/bebidas/vaso-de-leche-almendras.jpg"}
+        {n:"Vaso de leche de almendras", d:"Bebida vegetal ligera y cremosa a base de almendras.", p:"$12.000", img:"imagenes/bebidas/vaso-de-leche-almendras.jpg"},
       ]},
       {type:'groupTitle', title:'Bebidas frías', subtitle:'Frías y refrescantes'},
       {type:'items', alpha:true, items:[
@@ -197,7 +197,7 @@ const MENU = {
         {n:"Soda Maracuyá AMP", d:"Refrescante combinación gasificada con pulpa natural de maracuyá.", p:"$12.000", img:"imagenes/bebidas/soda-maracuya-amp.jpg"}
         {n:"Té hatsu", d:"Té aromático de origen selecto, servido frío.", p:"$9.000", img:"imagenes/bebidas/te-hatsu.jpg"}
         {n:"Coca-Cola", d:"Clásica bebida gaseosa refrescante con su inconfundible sabor original.", p:"$6.500", img:"imagenes/bebidas/coca-cola.jpg"}
-        {n:"Coca-Cola Zero", d:"El clásico sabor refrescante de Coca-Cola, sin azúcar y con cero calorías.", p:"$7.000", img:"imagenes/bebidas/coca-cola-zero.jpg"}
+        {n:"Coca-Cola Zero", d:"El clásico sabor refrescante de Coca-Cola, sin azúcar y con cero calorías.", p:"$7.000", img:"imagenes/bebidas/coca-cola-zero.jpg"},
       ]},
     ]
   },
