@@ -63,7 +63,7 @@ const MENU = {
       {type:'items', items:[
         {n:"Recreo en sanduchera", d:"Clásico sándwich tostado de jamón y queso, preparado en sanduchera como el hecho por mamá.", p:"$10.500", img:"imagenes/sandwiches/recreo-en-sanduchera.jpg"},
         {n:"Express — frío", d:"sándwich frío con jamón, queso, tomate fresco, espinaca tierna y mayonesa casera.", p:"$14.500", img:"imagenes/sandwiches/express-frio.jpg"},
-        {n:"Atún", d:"Dip cremoso de atún con espinaca sobre pan artesanal.", p:"$18.000"},
+        {n:"Atún", d:"Dip cremoso de atún con espinaca sobre pan artesanal.", p:"$18.000", img:"imagenes/sandwiches/atun.jpg"},
         {n:"Carnes", d:"Pan tipo Baguette crujiente con salami, pepperoni, jamón, queso mozzarella, tomate, espinaca y salsa de la casa.", p:"$20.000", img:"imagenes/sandwiches/carnes.jpg"},
         {n:"Focaccia", d:"Focaccia horneada con pesto, tomate fresco y stracciatella cremosa.", p:"$13.500", img:"imagenes/sandwiches/focaccia.jpg"},
       ]},
@@ -163,41 +163,41 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'Bebidas calientes', subtitle:'Calientes y acogedoras'},
       {type:'items', alpha:true, items:[
-        {n:"Espresso", d:"Extracción pura y concentrada de café. Cuerpo denso y sabor intenso.", p:"$8.000"},
-        {n:"Espresso doble", d:"Doble dosis de café concentrado. Potencia máxima y notas profundas, para verdaderos amantes del café.", p:"$10.000"},
+        {n:"Espresso", d:"Extracción pura y concentrada de café. Cuerpo denso y sabor intenso.", p:"$8.000", img:"imagenes/bebidas/espresso.jpg"},
+        {n:"Espresso doble", d:"Doble dosis de café concentrado. Potencia máxima y notas profundas, para verdaderos amantes del café.", p:"$10.000", img:"imagenes/bebidas/espresso-doble.jpg"},
         {n:"Americano", d:"Carga de espresso suavizada con agua caliente. Una taza equilibrada, aromática y de cuerpo ligero.", p:"$8.000", tags:['fav'], img:"imagenes/bebidas/americano.jpg"},
         {n:"Americano doble", d:"Doble carga de espresso alargada con agua caliente. Mayor intensidad y aroma en cada sorbo.", p:"$10.000", img:"imagenes/bebidas/americano-doble.jpg"},
         {n:"Capuccino", d:"Equilibrio perfecto entre espresso intenso, leche deslactosada y una generosa capa de espuma aterciopelada.", p:"$12.000", note:"En leche almendras $14.000", img:"imagenes/bebidas/capuccino.jpg"},
-        {n:"Cortado", d:"Carga de espresso suavizada con un toque de leche caliente que equilibra su intensidad natural.", p:"$8.500"},
-        {n:"Macchiato", d:"Espresso puro coronado con una ligera mancha de espuma de leche cremosa y aromática.", p:"$9.500"},
-        {n:"Mocaccino", d:"Deliciosa fusión de espresso, chocolate y leche cremosa, coronada con una suave espuma", p:"$13.000"},
+        {n:"Cortado", d:"Carga de espresso suavizada con un toque de leche caliente que equilibra su intensidad natural.", p:"$8.500", img:"imagenes/bebidas/cortado.jpg"},
+        {n:"Macchiato", d:"Espresso puro coronado con una ligera mancha de espuma de leche cremosa y aromática.", p:"$9.500", img:"imagenes/bebidas/macchiato.jpg"},
+        {n:"Mocaccino", d:"Deliciosa fusión de espresso, chocolate y leche cremosa, coronada con una suave espuma", p:"$13.000", img:"imagenes/bebidas/mocaccino.jpg"},
         {n:"Chocolate en agua", d:"Tradicional bebida caliente de cacao batido en agua, ligera, aromática y de sabor intenso.", p:"$9.000", img:"imagenes/bebidas/chocolate-en-agua.jpg"},
         {n:"Chocolate en leche", d:"Cremoso chocolate batido en leche, reconfortante y con el dulzor tradicional perfecto.", p:"$10.500", note:"En leche almendras $13.500", img:"imagenes/bebidas/chocolate-en-leche.jpg"},
-        {n:"Té chai en leche", d:"Infusión aromática de té negro y especias exóticas, preparada en leche cremosa y ligeramente espumada.", p:"$12.000", note:"En leche almendras $15.500"},
-        {n:"Té — Infusión Despensa de Rih Rih", d:"Selección artesanal de hebras naturales e ingredientes botánicos, infusionados para brindar aroma y bienestar.", p:"$8.000"},
-        {n:"Bretaña", d:"Soda refrescante y burbujeante, ideal para acompañar cualquier momento.", p:"$6.500"},
-        {n:"Aromática", d:"Infusión caliente de hierbas frescas y frutas seleccionadas, ideal para relajar y reconfortar.", p:"$6.500"},
-        {n:"Tinto Campesino", d:"Café tradicional colado y endulzado artesanalmente con panela, ofreciendo un sabor dulce y reconfortante.", p:"$6.500"},
-        {n:"Milo", d:"Clásica bebida achocolatada preparada en leche, servido frío o caliente.", p:"$13.000"},
-        {n:"Vaso de leche", d:"Vaso de leche de vaca simple y reconfortante.", p:"$8.000"},
-        {n:"Vaso de leche de almendras", d:"Bebida vegetal ligera y cremosa a base de almendras.", p:"$12.000"},
+        {n:"Té chai en leche", d:"Infusión aromática de té negro y especias exóticas, preparada en leche cremosa y ligeramente espumada.", p:"$12.000", note:"En leche almendras $15.500", img:"imagenes/bebidas/te-chai-en-leche.jpg"},
+        {n:"Té — Infusión Despensa de Rih Rih", d:"Selección artesanal de hebras naturales e ingredientes botánicos, infusionados para brindar aroma y bienestar.", p:"$8.000", img:"imagenes/bebidas/te-rih-rih.jpg"},
+        {n:"Bretaña", d:"Soda refrescante y burbujeante, ideal para acompañar cualquier momento.", p:"$6.500", img:"imagenes/bebidas/bretana.jpg"},
+        {n:"Aromática", d:"Infusión caliente de hierbas frescas y frutas seleccionadas, ideal para relajar y reconfortar.", p:"$6.500", img:"imagenes/bebidas/aromatica.jpg"},
+        {n:"Tinto Campesino", d:"Café tradicional colado y endulzado artesanalmente con panela, ofreciendo un sabor dulce y reconfortante.", p:"$6.500", img:"imagenes/bebidas/tinto-campesino.jpg"}
+        {n:"Milo", d:"Clásica bebida achocolatada preparada en leche, servido frío o caliente.", p:"$13.000", img:"imagenes/bebidas/milo.jpg"}
+        {n:"Vaso de leche", d:"Vaso de leche de vaca simple y reconfortante.", p:"$8.000", img:"imagenes/bebidas/vaso-de-leche.jpg"}
+        {n:"Vaso de leche de almendras", d:"Bebida vegetal ligera y cremosa a base de almendras.", p:"$12.000", img:"imagenes/bebidas/vaso-de-leche-almendras.jpg"}
       ]},
       {type:'groupTitle', title:'Bebidas frías', subtitle:'Frías y refrescantes'},
       {type:'items', alpha:true, items:[
-        {n:"Cold brew FJB", d:"Café de especialidad infusionado en frío durante horas. Suave, refrescante, de baja acidez y notas dulces.", p:"$13.500", tags:['rec']},
-        {n:"Granizado de café sencillo", d:"Refrescante mezcla café y hielo triturado, con textura suave y sabor intenso.", p:"$15.000"},
-        {n:"Granizado de café con chantilly y salsa de chocolate", d:"Café granizado coronado con chantilly y salsa de chocolate.", p:"$18.000", tags:['fav']},
+        {n:"Cold brew FJB", d:"Café de especialidad infusionado en frío durante horas. Suave, refrescante, de baja acidez y notas dulces.", p:"$13.500", tags:['rec'], img:"imagenes/bebidas/cold-brew-fjb.jpg"}
+        {n:"Granizado de café sencillo", d:"Refrescante mezcla café y hielo triturado, con textura suave y sabor intenso.", p:"$15.000",img:"imagenes/bebidas/granizado-cafe.jpg"}
+        {n:"Granizado de café con chantilly y salsa de chocolate", d:"Café granizado coronado con chantilly y salsa de chocolate.", p:"$18.000", tags:['fav'], img:"imagenes/bebidas/granizado-cafe-chantilly.jpg"}
         {n:"Batido frutos amarillos", d:"Refrescante mezcla cremosa de frutas tropicales amarillas, balanceada entre notas dulces y ligeramente cítricas.", p:"$13.500", note:"En leche $16.500", img:"imagenes/bebidas/batido-frutos-amarillos.jpg"},
         {n:"Batido frutos rojos", d:"Cremosa combinación de frutos rojos, con un sabor dulce y refrescante.", p:"$13.500", note:"En leche $16.500", img:"imagenes/bebidas/batido-frutos-rojos.jpg"},
-        {n:"Latte", d:"Suave combinación de espresso y abundante leche vaporizada cremosa, coronada con una ligera espuma.", p:"$10.500"},
-        {n:"Latte en leche de almendras", d:"Nuestro latte preparado con leche de almendras.", p:"$12.500"},
-        {n:"Matcha", d:"Té verde molido de sabor herbal y vibrante, batido con leche cremosa y suave dulzor.", p:"$14.000", note:"En leche almendras $16.500"},
-        {n:"Kombucha Biota", d:"Bebida fermentada a base de té, ligeramente burbujeante, refrescante y rica en probióticos.", p:"$12.500"},
-        {n:"Soda Hatsu", d:"Refrescante bebida gasificada con extractos naturales de frutas y hierbas, baja en calorías.", p:"$7.500"},
-        {n:"Soda Maracuyá AMP", d:"Refrescante combinación gasificada con pulpa natural de maracuyá.", p:"$12.000"},
-        {n:"Té hatsu", d:"Té aromático de origen selecto, servido frío.", p:"$9.000"},
-        {n:"Coca-Cola", d:"Clásica bebida gaseosa refrescante con su inconfundible sabor original.", p:"$6.500"},
-        {n:"Coca-Cola Zero", d:"El clásico sabor refrescante de Coca-Cola, sin azúcar y con cero calorías.", p:"$7.000"},
+        {n:"Latte", d:"Suave combinación de espresso y abundante leche vaporizada cremosa, coronada con una ligera espuma.", p:"$10.500", img:"imagenes/bebidas/latte.jpg"}
+        {n:"Latte en leche de almendras", d:"Nuestro latte preparado con leche de almendras.", p:"$12.500", img:"imagenes/bebidas/latte-leche-almendras.jpg"}
+        {n:"Matcha", d:"Té verde molido de sabor herbal y vibrante, batido con leche cremosa y suave dulzor.", p:"$14.000", note:"En leche almendras $16.500", img:"imagenes/bebidas/matcha.jpg"}
+        {n:"Kombucha Biota", d:"Bebida fermentada a base de té, ligeramente burbujeante, refrescante y rica en probióticos.", p:"$12.500", img:"imagenes/bebidas/kombucha-biota.jpg"}
+        {n:"Soda Hatsu", d:"Refrescante bebida gasificada con extractos naturales de frutas y hierbas, baja en calorías.", p:"$7.500", img:"imagenes/bebidas/soda-hatsu.jpg"}
+        {n:"Soda Maracuyá AMP", d:"Refrescante combinación gasificada con pulpa natural de maracuyá.", p:"$12.000", img:"imagenes/bebidas/soda-maracuya-amp.jpg"}
+        {n:"Té hatsu", d:"Té aromático de origen selecto, servido frío.", p:"$9.000", img:"imagenes/bebidas/te-hatsu.jpg"}
+        {n:"Coca-Cola", d:"Clásica bebida gaseosa refrescante con su inconfundible sabor original.", p:"$6.500", img:"imagenes/bebidas/coca-cola.jpg"}
+        {n:"Coca-Cola Zero", d:"El clásico sabor refrescante de Coca-Cola, sin azúcar y con cero calorías.", p:"$7.000", img:"imagenes/bebidas/coca-cola-zero.jpg"}
       ]},
     ]
   },
