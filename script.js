@@ -145,7 +145,7 @@ const MENU = {
     blocks:[
       {type:'groupTitle', title:'De nuestro horno'},
       {type:'items', items:[
-        {n:"Pandeyuca", d:"Clásico pandeyuca colombiano, recién horneado, con exterior crujiente y centro suave con el sabor del queso costeño.", p:"$7.500"},
+        {n:"Pandeyuca", d:"Clásico pandeyuca colombiano, recién horneado, con exterior crujiente y centro suave con el sabor del queso costeño.", p:"$7.500", img:"imagenes/panaderia/pandeyuca.jpg"},
         {n:"Pan brioche", d:"Pan brioche artesanal de receta clásica francesa, enriquecido con mantequilla pura y huevo, de miga extremadamente suave y dorada.", p:"$28.500", tags:['rec'], img:"imagenes/panaderia/pan-brioche.jpg"},
         {n:"Pan de canela y nueces", d:"Pan artesanal que combina el sabor dulce de la canela con la textura de las nuces, en tamaño ideal para compartir.", p:"$32.000", img:"imagenes/panaderia/pan-canela-y-nueces.jpg"},
         {n:"Pan guayaba y queso", d:"Pan artesanal de masa suave, relleno con una irresistible combinación de conserva de guayaba dulce y queso fresco.", p:"$25.000", img:"imagenes/panaderia/pan-guayaba-y-queso.jpg"},
